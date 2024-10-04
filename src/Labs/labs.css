@@ -1,0 +1,97 @@
+.lab-work {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  /* background-color: #1c1212; */
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar-logo a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  /* color: white; */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: #532222;
+  text-decoration: underline;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.back-button,
+.kanbas-button {
+  padding: 8px 15px;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #c1c9d2;
+  color: rgb(33, 3, 3);
+}
+
+.back-button:hover {
+  background-color: #00b33c;
+}
+
+.kanbas-button {
+  background-color: #ffcc00;
+  color: rgb(33, 3, 3);
+}
+
+.kanbas-button:hover {
+  background-color: #ff9900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  width: 100%;
+  text-align: left;
+  margin: 20px 0 10px 0;
+}
+
+.underline {
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin: 10px 0;
+}
